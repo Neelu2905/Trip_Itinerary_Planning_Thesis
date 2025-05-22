@@ -139,7 +139,7 @@ st.markdown(f"<p class='big-font'>📍 City Selected: {city}</p>", unsafe_allow_
 
 if city!="Select a City":
     # Paths to Excel files
-    utility_data_path = "C:/Users/Neelu/Desktop/Thesis/data/Updated Travel Data.xlsx"
+    utility_data_path = "Updated Travel Data.xlsx"
 
     utility = pd.read_excel(utility_data_path, sheet_name=city)
     # cost_data = pd.read_excel(cost_data_path, sheet_name=city)
